@@ -5,8 +5,8 @@ source "https://rubygems.org"
 gemspec
 
 gem "rails", "~> 7.0.0.alpha2"
-gem "omniauth"
-gem "omniauth-oauth2"
+gem "omniauth", ">= 2.1.0"
+gem "omniauth-oauth2", ">= 1.7.2"
 gem "rdoc"
 
 gem "rails-controller-testing", github: "rails/rails-controller-testing"
@@ -14,7 +14,7 @@ gem "rails-controller-testing", github: "rails/rails-controller-testing"
 gem "responders", "~> 3.0"
 
 group :test do
-  gem "omniauth-facebook"
+  gem "omniauth-facebook", ">= 9.0.0"
   gem "omniauth-openid"
   gem "rexml"
   gem "timecop"
