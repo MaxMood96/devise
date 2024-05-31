@@ -4,14 +4,14 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "rails", "~> 7.0.0.alpha2"
+gem "rails", "~> 7.0.0.0"
 gem "omniauth"
 gem "omniauth-oauth2"
 gem "rdoc"
 
 gem "rails-controller-testing", github: "rails/rails-controller-testing"
 
-gem "responders", "~> 3.0"
+gem "responders", "~> 3.1", ">= 3.1.0"
 
 group :test do
   gem "omniauth-facebook"
