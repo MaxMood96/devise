@@ -15,7 +15,7 @@ gem "responders", "~> 3.0"
 
 group :test do
   gem "omniauth-facebook"
-  gem "omniauth-openid"
+  gem "omniauth-openid", ">= 2.0.2"
   gem "rexml"
   gem "timecop"
   gem "webrat", "0.7.3", require: false
